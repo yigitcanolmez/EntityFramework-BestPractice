@@ -1,0 +1,6 @@
+@EFBestPractice.Api_HostAddress = http://localhost:5128
+
+GET {{EFBestPractice.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
