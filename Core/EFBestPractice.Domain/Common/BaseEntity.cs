@@ -1,6 +1,6 @@
 namespace EFBestPractice.Domain.Common;
 
-public class BaseEntity
+public abstract class BaseEntity<T>
 {
-    
+    public virtual T Id { get; set; } = default!;
 }
