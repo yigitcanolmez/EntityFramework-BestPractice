@@ -16,6 +16,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\..\Infra\EFBestPractices.Infrastructure\EFBestPractices.Infrastructure.csproj" />
       <ProjectReference Include="..\Core\EFBestPractice.Application\EFBestPractice.Application.csproj" />
       <ProjectReference Include="..\Infra\EFBestPractices.Infrastructure\EFBestPractices.Infrastructure.csproj" />
     </ItemGroup>
